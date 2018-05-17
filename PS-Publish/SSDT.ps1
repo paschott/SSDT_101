@@ -1,3 +1,5 @@
+#Adapted from https://github.com/RichieBzzzt/PoshSSDTBuildDeploy/
+
 #Using specific versions to ensure that the paths are correct below without needing to find them
 .\nuget install Microsoft.Data.Tools.MSBuild -version 10.0.61710.120
 .\nuget install PoshSSDTBuildDeploy -version 2.0.215
