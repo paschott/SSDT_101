@@ -1,0 +1,5 @@
+Ways to work with composite projects (old, but still relevant):
+https://docs.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/dd193415(v=vs.100)
+
+And a more complete way to handle Circular References, though it could get pretty complex as you add more and more databases into the mix:
+http://blogs.solidq.com/en/sqlserver/ssdt-how-to-solve-the-circular-references-issue/
