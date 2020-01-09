@@ -90,6 +90,7 @@
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="HumanResources\Stored Procedures\" />
     <Folder Include="dbo\User Defined Types\" />
+    <Folder Include="Snapshots" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Post-Deploy\Script.PostDeployment.sql" />
@@ -265,5 +266,6 @@
   <ItemGroup>
     <None Include="Publish\Local.publish.xml" />
     <None Include="Scripts\Post-Deploy\Populate_HumanResources-Department.sql" />
+    <None Include="Snapshots\AdventureWorks_20180519_10-32-55.dacpac" />
   </ItemGroup>
 </Project>
