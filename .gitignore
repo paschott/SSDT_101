@@ -1,6 +1,8 @@
 Microsoft.Data.Tools.Msbuild.10.0.61710.120/
+Microsoft.Data.Tools.Msbuild/
 Microsoft.SQL.Server.2016.LocalDB/
 PoshSSDTBuildDeploy.2.0.215/
+PoshSSDTBuildDeploy/
 
 
 ## Ignore Visual Studio temporary files, build results, and

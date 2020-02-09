@@ -1,15 +1,16 @@
 #Adapted from https://github.com/RichieBzzzt/PoshSSDTBuildDeploy/
 
-#Using specific versions to ensure that the paths are correct below without needing to find them
-.\nuget install Microsoft.Data.Tools.MSBuild -version 10.0.61710.120
-.\nuget install PoshSSDTBuildDeploy -version 2.0.215
+#Can specify a version if you need a particular version
+#Passing in "-x" to exclude the version in the path name and "-o" to the code to put the output files in the local folder
+.\nuget install Microsoft.Data.Tools.MSBuild -x -o .\   #-version 10.0.61710.120
+.\nuget install PoshSSDTBuildDeploy -x -o .\ #-version 2.0.215
 
-Import-Module .\PoshSSDTBuildDeploy.2.0.215\PoshSSDTBuildDeploy.psm1
+Import-Module .\PoshSSDTBuildDeploy\PoshSSDTBuildDeploy.psm1
 
 
 #Set variables for local paths and files
 $DBDeploy = $PSScriptRoot
-$DBDeploy_DAC = Join-Path $DBDeploy "\Microsoft.Data.Tools.Msbuild.10.0.61710.120\lib\net46"
+$DBDeploy_DAC = Join-Path $DBDeploy "\Microsoft.Data.Tools.Msbuild\lib\net46"
 $DBDeploy_DACFX = Join-Path $DBDeploy_DAC "\Microsoft.SqlServer.Dac.dll"
 
 
